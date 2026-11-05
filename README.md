@@ -16,5 +16,5 @@ V tej nalogi sem naredil aplikacijo Activities - example, ki vsebuje tri aktivno
 
 ## Zaslonske slike aplikacije
 <img width="270" height="555" alt="Slika1" src="https://github.com/user-attachments/assets/1bbb3540-3155-4e0f-93d7-3a91ed71b111" />
-
+<img width="270" height="555" alt="Slika2" src="https://github.com/user-attachments/assets/367b802c-0d14-4fe1-be82-a1b555d91b28" />
 <img width="270" height="555" alt="Slika3" src="https://github.com/user-attachments/assets/b298af2b-b137-4b8f-9f0a-f10d9a62ddf0" />
