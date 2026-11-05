@@ -1,4 +1,4 @@
-# Activities - exampl
+# Activities - example
 
 V tej nalogi sem naredil aplikacijo Activities - example, ki vsebuje tri aktivnosti: MainActivity, HelloActivity in ThirdActivity. Na glavnem zaslonu lahko povečujem števec in prehajam na drugi dve aktivnosti. Vrednost števca se ob prehodu prenese v drugo in tretjo aktivnost z eksplicitnim namenom (`Intent`). Iz drugega in tretjega zaslona se lahko vrnem tudi s potezno navigacijo.
 
