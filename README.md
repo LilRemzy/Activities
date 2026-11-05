@@ -25,23 +25,23 @@ Odgovori na vprašanja
 1. Kateri menijski ukaz v Android Studiu uporabite za dodajanje nove aktivnosti v aplikacijo?<br>
 Desni klik na paket aplikacije (app → java → com.example.activities) in izbira New → Activity → Empty Views Activity.
 
-2. Katere datoteke se običajno dodajo, ko v aplikacijo dodate novo aktivnost z imenom HelloActivity, in katera obstoječa datoteka se pri tem posodobi?
+2. Katere datoteke se običajno dodajo, ko v aplikacijo dodate novo aktivnost z imenom HelloActivity, in katera obstoječa datoteka se pri tem posodobi?<br>
 Doda se razred HelloActivity.java in XML postavitev activity_hello.xml. Posodobi se datoteka AndroidManifest.xml, v katero se zapiše nova aktivnost (<activity android:name=".HelloActivity" />).
 
-3. Kateri konstruktor uporabite za ustvarjanje novega eksplicitnega namena za prehod iz ene aktivnosti v drugo?
+3. Kateri konstruktor uporabite za ustvarjanje novega eksplicitnega namena za prehod iz ene aktivnosti v drugo?<br>
 b) new Intent(Context context, Class<?> class)
 
-4. Kako trenutni vrednosti števca dodate v namen (Intent), da jo lahko prenesete v drugo aktivnost?
+4. Kako trenutni vrednosti števca dodate v namen (Intent), da jo lahko prenesete v drugo aktivnost?<br>
 c) kot dodaten podatek namena (putExtra()).
 
-5. S katero metodo v razredu MainActivity zaženete HelloActivity in ji posredujete trenutno vrednost števca?
+5. S katero metodo v razredu MainActivity zaženete HelloActivity in ji posredujete trenutno vrednost števca?<br>
 d) goToActivity1()
 
-6. Kako v aktivnosti HelloActivity pravilno posodobite prikaz števca, da prikaže trenutno vrednost?
+6. Kako v aktivnosti HelloActivity pravilno posodobite prikaz števca, da prikaže trenutno vrednost?<br>
 d) Vse navedeno: pridobimo namen, s katerim je bila aktivnost zagnana (getIntent()), iz njega preberemo vrednost števca (getIntExtra()) in posodobimo besedilni pogled (setText()).
 
 7. Kateri zapis v HelloActivity ali ThirdActivity omogoča vrnitev na MainActivity brez ustvarjanja več zaporednih primerkov iste aktivnosti?
 b) Intent.FLAG_ACTIVITY_CLEAR_TOP in Intent.FLAG_ACTIVITY_SINGLE_TOP
 
-8. Kaj je glavna vloga aktivnosti ThirdActivity v tej nalogi?
+8. Kaj je glavna vloga aktivnosti ThirdActivity v tej nalogi?<br>
 c) prikaz prenesenega števca in omogočanje dodatne navigacije med aktivnostmi
