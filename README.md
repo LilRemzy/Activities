@@ -18,3 +18,30 @@ V tej nalogi sem naredil aplikacijo Activities - example, ki vsebuje tri aktivno
 <img width="270" height="555" alt="Slika1" src="https://github.com/user-attachments/assets/1bbb3540-3155-4e0f-93d7-3a91ed71b111" />
 <img width="270" height="555" alt="Slika2" src="https://github.com/user-attachments/assets/367b802c-0d14-4fe1-be82-a1b555d91b28" />
 <img width="270" height="555" alt="Slika3" src="https://github.com/user-attachments/assets/b298af2b-b137-4b8f-9f0a-f10d9a62ddf0" />
+
+
+Odgovori na vprašanja
+
+1. Kateri menijski ukaz v Android Studiu uporabite za dodajanje nove aktivnosti v aplikacijo?
+Desni klik na paket aplikacije (app → java → com.example.activities) in izbira New → Activity → Empty Views Activity.
+
+2. Katere datoteke se običajno dodajo, ko v aplikacijo dodate novo aktivnost z imenom HelloActivity, in katera obstoječa datoteka se pri tem posodobi?
+Doda se razred HelloActivity.java in XML postavitev activity_hello.xml. Posodobi se datoteka AndroidManifest.xml, v katero se zapiše nova aktivnost (<activity android:name=".HelloActivity" />).
+
+3. Kateri konstruktor uporabite za ustvarjanje novega eksplicitnega namena za prehod iz ene aktivnosti v drugo?
+b) new Intent(Context context, Class<?> class)
+
+4. Kako trenutni vrednosti števca dodate v namen (Intent), da jo lahko prenesete v drugo aktivnost?
+c) kot dodaten podatek namena (putExtra()).
+
+5. S katero metodo v razredu MainActivity zaženete HelloActivity in ji posredujete trenutno vrednost števca?
+d) goToActivity1()
+
+6. Kako v aktivnosti HelloActivity pravilno posodobite prikaz števca, da prikaže trenutno vrednost?
+d) Vse navedeno: pridobimo namen, s katerim je bila aktivnost zagnana (getIntent()), iz njega preberemo vrednost števca (getIntExtra()) in posodobimo besedilni pogled (setText()).
+
+7. Kateri zapis v HelloActivity ali ThirdActivity omogoča vrnitev na MainActivity brez ustvarjanja več zaporednih primerkov iste aktivnosti?
+b) Intent.FLAG_ACTIVITY_CLEAR_TOP in Intent.FLAG_ACTIVITY_SINGLE_TOP
+
+8. Kaj je glavna vloga aktivnosti ThirdActivity v tej nalogi?
+c) prikaz prenesenega števca in omogočanje dodatne navigacije med aktivnostmi
