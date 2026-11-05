@@ -22,7 +22,7 @@ V tej nalogi sem naredil aplikacijo Activities - example, ki vsebuje tri aktivno
 
 Odgovori na vprašanja
 
-1. Kateri menijski ukaz v Android Studiu uporabite za dodajanje nove aktivnosti v aplikacijo?
+1. Kateri menijski ukaz v Android Studiu uporabite za dodajanje nove aktivnosti v aplikacijo?<br>
 Desni klik na paket aplikacije (app → java → com.example.activities) in izbira New → Activity → Empty Views Activity.
 
 2. Katere datoteke se običajno dodajo, ko v aplikacijo dodate novo aktivnost z imenom HelloActivity, in katera obstoječa datoteka se pri tem posodobi?
