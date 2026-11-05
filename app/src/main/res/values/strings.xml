@@ -1,0 +1,12 @@
+<resources>
+    <string name="counter_default">0</string>
+    <string name="count_button">Count</string>
+    <string name="hello_button">Hello Activity</string>
+    <string name="third_button">Third Activity</string>
+    <string name="second_button">Second Activity</string>
+    <string name="app_name">Activities - example</string>
+    <string name="hello_title">Hello!</string>
+    <string name="activity_3_title">Activity 3</string>
+    <string name="go_to_activity_1">Go to activity 1</string>
+    <string name="go_to_activity_2">Go to activity 2</string>
+</resources>
