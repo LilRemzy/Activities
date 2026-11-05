@@ -12,7 +12,7 @@ V tej nalogi sem naredil aplikacijo Activities - example, ki vsebuje tri aktivno
 - vrnitev na `MainActivity` izvesti z zastavicama `Intent.FLAG_ACTIVITY_CLEAR_TOP` in `Intent.FLAG_ACTIVITY_SINGLE_TOP`, da se ne ustvarjajo novi primerki iste aktivnosti in števec ostane ohranjen,
 - omogočiti potezno navigacijo z razredom `OnSwipeTouchListener`: poteg v levo sproži prehod na prvo aktivnost, poteg v desno pa prehod na drugo aktivnost,
 - v `AndroidManifest.xml` zapisati vse tri aktivnosti (pri ustvarjanju prek Android Studia se doda samodejno),
-- preizkusiti delovanje aplikacije pri različnih vrednostih števca.
+- preizkusiti delovanje aplikacije pri različnih vrednostih števca
 
 ## Zaslonske slike aplikacije
 <img width="270" height="555" alt="Slika1" src="https://github.com/user-attachments/assets/1bbb3540-3155-4e0f-93d7-3a91ed71b111" />
