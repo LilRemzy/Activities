@@ -40,7 +40,7 @@ d) goToActivity1()
 6. Kako v aktivnosti HelloActivity pravilno posodobite prikaz števca, da prikaže trenutno vrednost?<br>
 d) Vse navedeno: pridobimo namen, s katerim je bila aktivnost zagnana (getIntent()), iz njega preberemo vrednost števca (getIntExtra()) in posodobimo besedilni pogled (setText()).
 
-7. Kateri zapis v HelloActivity ali ThirdActivity omogoča vrnitev na MainActivity brez ustvarjanja več zaporednih primerkov iste aktivnosti?
+7. Kateri zapis v HelloActivity ali ThirdActivity omogoča vrnitev na MainActivity brez ustvarjanja več zaporednih primerkov iste aktivnosti?<br>
 b) Intent.FLAG_ACTIVITY_CLEAR_TOP in Intent.FLAG_ACTIVITY_SINGLE_TOP
 
 8. Kaj je glavna vloga aktivnosti ThirdActivity v tej nalogi?<br>
